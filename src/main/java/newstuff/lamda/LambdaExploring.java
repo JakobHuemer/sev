@@ -1,8 +1,6 @@
 package newstuff.lamda;
 
-interface Calculation {
-    public int add(int... ints);
-}
+import java.util.Comparator;
 
 public class LambdaExploring {
     public static void main( String[] args ) {

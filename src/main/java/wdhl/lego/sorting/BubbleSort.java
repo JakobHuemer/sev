@@ -16,11 +16,6 @@ public class BubbleSort {
 
         Arrays.sort( sortedChecKArray );
 
-        System.out.println( STR."Before \{Arrays.toString( randArray )}" );
-        bubbleSort( randArray );
-        System.out.println( STR."After \{Arrays.toString( randArray )}" );
-
-        System.out.println( STR."Check \{Arrays.equals( randArray, sortedChecKArray )}" );
     }
 
     public static void bubbleSort( int[] toSort ) {

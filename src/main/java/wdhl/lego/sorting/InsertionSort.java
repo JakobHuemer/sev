@@ -16,11 +16,6 @@ public class InsertionSort {
 
         Arrays.sort( sortedChecKArray );
 
-        System.out.println( STR."Before \{Arrays.toString( randArray )}" );
-        insertionSort( randArray );
-        System.out.println( STR."After \{Arrays.toString( randArray )}" );
-
-        System.out.println( STR."Check \{Arrays.equals( randArray, sortedChecKArray )}" );
     }
 
     private static void insertionSort( int[] toSort ) {

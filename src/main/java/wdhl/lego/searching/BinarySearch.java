@@ -2,7 +2,6 @@ package wdhl.lego.searching;
 
 import java.util.Arrays;
 
-import static java.lang.StringTemplate.STR;
 
 public class BinarySearch {
     public static void main( String[] args ) {
@@ -20,7 +19,7 @@ public class BinarySearch {
 
         arr[ (int) Math.floor( Math.random() * arr.length ) ] = SEARCH_NUMBER;
 
-        System.out.println( STR."Number to search: \{SEARCH_NUMBER}" );
+        System.out.println( "Number to search: " + SEARCH_NUMBER );
 
         bubbleSort( arr );
         System.out.print("Array: ");
@@ -28,8 +27,8 @@ public class BinarySearch {
 
         int index = binarySearch( arr, SEARCH_NUMBER );
 
-        System.out.println( STR."FOUND AT INDEX: \{index}" );
-        System.out.println( STR."Number at index \{index}: \{arr[ index ]}" );
+        System.out.println( "FOUND AT INDEX: " + index );
+        System.out.println( "Number at index " + index + ": " + arr[ index ] );
 
     }
 

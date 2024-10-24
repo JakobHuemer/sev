@@ -16,11 +16,6 @@ public class GrundSort {
 
         Arrays.sort( sortedChecKArray );
 
-        System.out.println( STR."Before \{Arrays.toString( randArray )}" );
-        grundSort( randArray );
-        System.out.println( STR."After \{Arrays.toString( randArray )}" );
-
-        System.out.println( STR."Check \{Arrays.equals( randArray, sortedChecKArray )}" );
     }
 
     private static void grundSort( int[] toSort ) {
