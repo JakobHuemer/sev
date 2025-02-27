@@ -1,7 +1,9 @@
 package schuli.threads.better;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main( String[] args ) throws InterruptedException {
@@ -16,12 +18,17 @@ public class Main {
         });
 
 
-        Thread.sleep( 500 );
+        Thread.sleep( 0, 3 );
+        int count = 0;
+        list.getLast();
         for ( String s : list ) {
             System.out.println( s );
+            count++;
         }
 
-        int i = ( new int[ 2 ] )[ 2 ];
+        System.out.println(count);
+
+        var unique = list.stream().distinct().toList();
 
     }
 }
