@@ -16,6 +16,7 @@ public class Example3 implements Runnable {
 
         char input = ' ';
 
+
         do {
 
             try {
